@@ -12,9 +12,14 @@ def tests():
         for opcija in jautajums["opcijas"]:
             print(opcija)
         print()
-        atbilde = input("Ievadi atbildi: ").upper()
+        while True:
+            atbilde = input("Ievadi atbildi: ").casefold()
+            if atbilde in ["a", "b", "c", "d"]:
+                break
+            else:
+                print("Atbildi ar A, B, C vai D!")
         print()
-        if atbilde == jautajums["atbilde"]:
+        if atbilde == jautajums["atbilde"].casefold():
             pareizi += 1
             os.system('cls')
         else:
@@ -22,7 +27,7 @@ def tests():
             os.system('cls')
     print(f"Tu atbildēji uz {pareizi} jautājumiem pareizi no 10!")
     if nepareizi:
-        print("Nepareizas atbildes:")
+        print("Nepareizās atbildes:")
         print("-----------------------------------------------")
         for jautajums in nepareizi:
             print(jautajums["jautajums"])
