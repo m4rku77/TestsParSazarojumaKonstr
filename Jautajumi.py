@@ -2,7 +2,7 @@ jautajumi = [
     {
         "jautajums": "Kāpēc sazarojuma konstrukcija eksistē? ", 
         "opcijas": ["A. Sazarojuma konstrukcija eksistē, lai pārbaudītu noteiktus nosacījumus un, izpildītu kodu atkarībā no tā, vai šie nosacījumi ir patiesi vai nepatiesi.",
-                    "B. --",
+                    "B. Lai optimizētu atmiņas izmantošanu",
                     "C. Lai sarežģītu kodu",
                     "D. Lai aizvērtu programmu"],
         "atbilde": "A"
@@ -24,7 +24,7 @@ jautajumi = [
         "atbilde": "C"
     },
     {
-        "jautajums": "Kas tiek izvadīts konsolē? \n\na = 1\nb = 3\nif b > a:\n    print(str(b) + \" ir lielāks nekā \" + str(a))", 
+        "jautajums": "Kas tiek izvadīts konsolē? \n\na = 1\nb = 3\nif b > a:\n    print(str(b) + \" ir lielāks nekā \" + str(a))\n", 
         "opcijas": ["A. 1 ir lielāks nekā 1",
                     "B. 3 ir lielāks nekā 3",
                     "C. 1 ir lielāks nekā 3",
@@ -32,7 +32,7 @@ jautajumi = [
         "atbilde": "D"
     },
     {
-        "jautajums": "Kurš salīdzināšanas operators nepastāv? ", 
+        "jautajums": "Kurš salīdzināšanas operators nepastāv? \n", 
         "opcijas": ["A. a !=! b ",
                     "B. a == b",
                     "C. a < b",

@@ -1,5 +1,6 @@
 import time
 import os
+import sys
 
 from Jautajumi import jautajumi
 from Noteikumi import Noteikumi
@@ -36,7 +37,17 @@ def tests():
                 print(opcija)
             print("-----------------------------------------------")
     else:
-        print("Visas atbildes ir pareizas!")
+        print("Visas atbildes ir pareizas! Apsveicu!")
+    while True:
+        velreiz = input("Vai vēlies darīt testu atkārtoti? (jā/nē): ")
+        if velreiz == 'jā':
+            Sakums()
+            os.system('clear')
+        elif velreiz == 'nē':
+            sys.exit()
+        else:
+            velreiz = input("Lūdzu, atbildi ar 'jā' vai 'nē': ")
+
 
 def Sakums():
     print(Noteikumi())
