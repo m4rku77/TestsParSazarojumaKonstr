@@ -1,5 +1,9 @@
 # Tests par sazarojuma konstrukcijā iekš valodā Python. 
 
+### Mācību materiālam pārsniedza atļauto faila lieluma limitu. 
+#### Lai apskatītu - https://www.canva.com/design/DAGHegcrFI8/hBkRrcQPU2PLltnaphsBRg/edit?utm_content=DAGHegcrFI8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+#### Lai nolādētu PDF formātā - https://failiem.lv/u/tspsbmdvrm
+
 ### Tests ir veidots balstoties uz manis veidoto mācību materiālu. Atbildes uz jautājumiem var atrast iekš manā taisītā mācību materiālā. 
 ### Sākot programmu, lietotājam liek izlasīt noteikumus kā programma strādā. 
 ![image](https://github.com/m4rku77/TestsParSazarojumaKonstr/assets/165993954/edb58dd5-6f9a-4b98-bc9d-503f3cfbc0bd)
