@@ -13,3 +13,5 @@ def Sakums ():
         else:
             gatavs = input("Vai esi gatavs sākt testu?")
 
+            
+
