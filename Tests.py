@@ -1,10 +1,11 @@
 import time
 import os
+from Noteikumi import Noteikumi
 
-def Sakums ():
+def Sakums():
+    print(Noteikumi())
     while True:
         gatavs = input("Vai esi gatavs sākt testu?")
-
         if gatavs == 'Jā':
             print ("Sākam!")
             time.sleep(2)
@@ -13,5 +14,5 @@ def Sakums ():
         else:
             gatavs = input("Vai esi gatavs sākt testu?")
 
-            
+Sakums()
 
